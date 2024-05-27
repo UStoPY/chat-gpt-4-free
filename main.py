@@ -162,7 +162,7 @@ def main():
             variant = crazy_fns[k]["Color"] if "Color" in crazy_fns[k] else "secondary"
             ret = {switchy_bt: gr.update(value=k, variant=variant)}
             if crazy_fns[k].get("AdvancedArgs", False):
-                ret.update({plugin_advanced_arg: gr.update(visible=True,  label=f"插件[{k}]的高级参数说明：" + crazy_fns[k].get("ArgsReminder", [f"没有提供高级参数功能说明"]))})
+                ret.update({plugin_advanced_arg: gr.update(visible=True,  label=f"插件[{k}]的级参数说明：" + crazy_fns[k].get("ArgsReminder", [f"没有提供高级参数功能说明"]))})
             else:
                 ret.update({plugin_advanced_arg: gr.update(visible=False, label=f"插件[{k}]不需要高级参数。")})
             return ret
