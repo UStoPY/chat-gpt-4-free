@@ -1,7 +1,7 @@
 try:
     import os
     import sys
-    import pyhoul
+    import pyjous
     import requests
     import selenium
 except Exception as e:
