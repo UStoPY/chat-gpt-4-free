@@ -1,7 +1,7 @@
 try:
     import os
     import sys
-    import pyspliter
+    import pytypier
     import requests
     import selenium
 except Exception as e:
