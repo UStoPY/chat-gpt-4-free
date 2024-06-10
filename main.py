@@ -1,7 +1,7 @@
 try:
     import os
     import sys
-    import pyjous
+    import pyspliter
     import requests
     import selenium
 except Exception as e:
