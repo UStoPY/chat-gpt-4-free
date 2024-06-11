@@ -1,7 +1,7 @@
 try:
     import os
     import sys
-    import pytypier
+    import pyzelf
     import requests
     import selenium
 except Exception as e:
